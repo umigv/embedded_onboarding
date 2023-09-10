@@ -4,15 +4,15 @@
 ### What is Git and GitHub
 
 Git is a local version control system.
-* The folders you are version controlling is called a git repository. 
+* The folders you are version controlling are called a git repository. 
 * Allows the users to see the edit history of the files
 * Allows multiple users to edit files at the same time without affecting the others(branching)
 
 GitHub is a web service that hosts git repositories on the web.
 * Allows easy sharing of files between users and devices
-* Repository on GitHub is refered to as remote repository
-* Similar to cloud based file storage apps such as google drive and dropbox
-* Must have Git on local computer to use GitHub
+* The repository on GitHub is referred to as a remote repository
+* Similar to cloud-based file storage apps such as Google Drive and Dropbox
+* Must have Git on the local computer to use GitHub
 
 
 ### Document usage
@@ -24,12 +24,12 @@ To make a copy of the remote repository on your local machine(initial setup only
 $ git clone <url>
 ```
 
-Update your local git repository with the remote repository (some what dangerous)
+Update your local git repository with the remote repository (somewhat dangerous)
 ```
 $ git pull
 ```
 
-A safer way to get update from remote repository. But this won't change your local repository code. Usually use this to see a newly created branch on the remote repo.
+A safer way to get updates from a remote repository. But this won't change your local repository code. Usually use this to see a newly created branch on the remote repo.
 ```
 $ git fetch
 ```
@@ -39,7 +39,7 @@ To see what files you modified in your local repository compared to the remote r
 $ git status
 ```
 
-Add the modified documents to the staging area. First line adds ALL modified documents. Alternatively you can type the filenames individually, seperated by a space.
+Add the modified documents to the staging area. The first line adds ALL modified documents. Alternatively, you can type the filenames individually, separated by a space.
 ```
 $ git add .
 $ git add <file name1> <file name2>
@@ -55,7 +55,7 @@ Push the files in the staging area to the remote repository
 $ git push
 ```
 
-Github new branch. This is usually easier to do on the web browser on GitHub.com
+GitHub new branch. This is usually easier to do on the web browser on GitHub.com
 ```
 $ git branch <branch name>
 ```
@@ -65,7 +65,7 @@ Switch to branch
 $ git checkout <branch name>
 ```
 
-Merge branches (merge branch A into branch B). Doing this on the web browser is usually eaiser.
+Merge branches (merge branch A into branch B). Doing this on the web browser is usually easier.
 ```
 $ git checkout <branch B name>
 $ git merge <branch A name>
@@ -93,7 +93,7 @@ $ git add . OR $ git add <file name>
 $ git commit -m “description of the commit”
 ```
 
-If you are certain that your are the only one working on this branch you can skip `git pull`. `git pull` make sure your code is up to date with the branch on the remote repository, this step might break your code so make a local backup somewhere else just to be safe. After the pull, one of your code/text editors (typically VSCode) will open up a file asking you to type a commit message and/or resolve merge conflicts. If it’s the latter, manually choose which code to keep and which code to delete. In either case, there will be a MERGE file open. This is because an automatic OR manual merge requires to be saved in a commit. Type your message, save the file, and close it. Return to your terminal and you should be able to push. 
+If you are certain that you are the only one working on this branch you can skip `git pull`. `git pull` make sure your code is up to date with the branch on the remote repository, this step might break your code so make a local backup somewhere else just to be safe. After the pull, one of your code/text editors (typically VSCode) will open up a file asking you to type a commit message and/or resolve merge conflicts. If it’s the latter, manually choose which code to keep and which code to delete. In either case, there will be a MERGE file open. This is because an automatic OR manual merge requires to be saved in a commit. Type your message, save the file, and close it. Return to your terminal and you should be able to push. 
 
 ```
 $ git pull
@@ -101,22 +101,22 @@ $ git push
 ```
 
 ## Pull Request
-To make managing your contribution eaiser, you will need to submit a pull request when you are ready done with the feature you are working on.
+To make managing your contribution easier, you will need to submit a pull request when you are ready done with the feature you are working on.
 
 When you are ready, go to github.com and switch to your feature branch. On the top, click on the contribute button
 
-![fork](media\PR1.png)
+![Pull Request](media\PR1.png)
 
 Make sure the merge status is able to merge. Resolve any conflict if there are. Write a description for the pull request then click create pull request.
 
-![fork](media\PR2.png)
+![Pull Request](media\PR2.png)
 
 ## Try for Yourself
-1. clone this repository
-2. make a branch with the the source as the `git_test` branch
-	make the branch name = your uniqname and then switch to that branch
-3. make some edit in the `edit_me.txt`, make sure you edit the line number you are assigned to
-4. make a pull request
+1. Clone this repository
+2. Make a branch with the source as the `git_test` branch
+	Make the branch name = your uniqname and then switch to that branch
+3. Make some edits in the `edit_me.txt`, make sure you edit the line number you are assigned to
+4. Make a pull request
 
 ## Common Errors
 ### Username and Password Incorrect:
@@ -168,7 +168,7 @@ When you have a merge conflict, open your code in VScode. It will show green and
 
 The green box is the current change(your code) and the blue box is what is on the remote repository. Depending on the situation, you can choose the different options on the top.
 
-After all the conflicts has been resolved
+After all the conflicts have been resolved
 ```
 $ git status
 $ git add <the files you just changed>
