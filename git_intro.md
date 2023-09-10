@@ -105,11 +105,11 @@ To make managing your contribution easier, you will need to submit a pull reques
 
 When you are ready, go to github.com and switch to your feature branch. On the top, click on the contribute button
 
-![Pull Request](media\PR1.png)
+![Pull Request](media/PR1.png)
 
 Make sure the merge status is able to merge. Resolve any conflict if there are. Write a description for the pull request then click create pull request.
 
-![Pull Request](media\PR2.png)
+![Pull Request](media/PR2.png)
 
 ## Try for Yourself
 1. Clone this repository
@@ -124,11 +124,11 @@ You entered your username and password, it says your password is incorrect and n
 
 1. Go to github.com click your pfp on the top right > settings
 
-![settings](media\settings.png)
+![settings](media/settings.png)
 
 2. Scroll down a lot to developer settings (left menu bar)
 
-![dev settings](media\developer_settings.png)
+![dev settings](media/developer_settings.png)
 
 3. Personal access tokens > Tokens (classics) > Generate new token > Generate new token (classic) 
 4. Set the expiration date to be as long as possible, if you are using your personal machine.
@@ -140,7 +140,7 @@ You entered your username and password, it says your password is incorrect and n
 ### Divergent Branch
 When you try to pull from a branch, you might have this divergent branch warning.
 
-![settings](media\divergent_branch.png)
+![settings](media/divergent_branch.png)
 
 There are several ways to resolve this issue depending on your situation:
 
@@ -164,7 +164,7 @@ If you are scared just do `$ git merge --abort` and it will restore your old fil
 
 When you have a merge conflict, open your code in VScode. It will show green and blue boxes where conflicts arrive. 
 
-![settings](media\merge_conflict.png)
+![settings](media/merge_conflict.png)
 
 The green box is the current change(your code) and the blue box is what is on the remote repository. Depending on the situation, you can choose the different options on the top.
 
