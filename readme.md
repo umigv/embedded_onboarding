@@ -15,7 +15,7 @@ To start your first program, you need to install [VScode](https://code.visualstu
 Install the [Arduino IDE](https://www.arduino.cc/en/software), this is used to upload code to a microcontroller called Arduino. 
 
 ### STM32CubeIDE
-Install the [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html), this is used to upload to code to a microcontroller called STM32
+Install the [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html), this is used to upload to code to a microcontroller called STM32. If you are using Mac, also install [ST-link](https://www.st.com/en/development-tools/st-link-server.html)
 
 ### Git (Windows only)
 Install [Git](https://git-scm.com/downloads), this is a version control software that can be linked to GitHub. Optionally, get the [GitHub Desktop](https://desktop.github.com/) app for an easy user experience with a Graphic User Interface(GUI).
