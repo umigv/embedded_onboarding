@@ -6,6 +6,7 @@ The documents in this repo are designed to help you get started on the critical 
 2. [git_intro.md](git_intro.md ) git and GitHub tutorial.
 3. [cs_intro.md`](cs_intro.md ) C/C++ references
 4. [arduino_intro.md](arduino_intro.md) Arduino tutorial with fun mini projects
+5. [stm32_intro.md](stm32_intro.md) Setting up the STM32 Nucleo microcontroller
 
 ## Required Installs/Accounts
 ### VScode
