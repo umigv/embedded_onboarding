@@ -1,7 +1,7 @@
 # STM32 Intro
 ### Before you get started...
-- Make sure to go over the [Arduino Intro](https://github.com/umigv/embedded_onboarding/blob/main/arduino_intro.md), as many concepts from the Arduino can be applied to the STM32 microcontrollers.
-- Also make sure that you are familiar with some [foundational coding concepts](https://github.com/umigv/embedded_onboarding/blob/main/cs_intro.md).
+- Make sure to go over the [Arduino Intro](arduino_intro.md), as many concepts from the Arduino can be applied to the STM32 microcontrollers.
+- Also make sure that you are familiar with some [foundational coding concepts](cs_intro.md).
 ## Getting Started!
 1. The IDE we will be using is [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html), so be sure to download that.
 	- Make sure to download the correct version according to your operating system.
