@@ -6,7 +6,7 @@
 
 ## Setup
 1. Plug in the Arduino to your computer.
-2. In the Arduino IDE top menu bar `Tools > Board > Arduino AVR Boards > ` select the Arduino board you are connected to. Most likely it is going to be an `Arduino Nano` for the onboarding project
+2. In the Arduino IDE top menu bar `Tools > Board > Arduino AVR Boards > ` select the Arduino board you are connected to. Most likely it is going to be an `Arduino Uno` or `Arduino Mega` for the onboarding project
 3. Top menu bar again `Tools > Port > ` select the port you are connected to the board. Check with your computer system information/device management to confirm.
 
 ## Basics
@@ -18,7 +18,7 @@ The `setup` function is going to run **once** when the board is powered up, this
 The `loop` function will continue running as long as the board is powered, after the `setup` function.
 
 ### Pins and Breadboard basics
-- The Arduino Nano has several pins(aka headers) on each of its long sides, the pins labeled with the corresponding pin names.
+- The Arduino Uno/Mega/Nano has several pins (aka headers) on each of its long sides, the pins labeled with the corresponding pin names.
 - The breadboard is a way to connect electronics easily, if you are not familiar with it, check out this [tutorial](https://www.youtube.com/watch?v=fq6U5Y14oM4&ab_channel=SimplyElectronics)
 
 ## First Project: Simple Light Blink
@@ -27,7 +27,7 @@ The `loop` function will continue running as long as the board is powered, after
     2. Get comfortable with breadboard and circuits
     3. Have some fun!  
 - Follow this [tutorial](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink)
-- You can put your Arduino Nano on the breadboard, **make sure the pins are on the different side** of the breadboard middle valley
+- If you are using an Arduino Nano, you can put your Arduino Nano on the breadboard, **make sure the pins are on the different side** of the breadboard middle valley
 - But there is a twist, the light is RGB! Use Google, and your brain to figure things out~
 
 ## Second Project: Ultrasound Distance Detection
@@ -35,7 +35,7 @@ The `loop` function will continue running as long as the board is powered, after
     1. Get comfortable with software, and hardware interaction 
     2. Learn to install libraries
 - Follow this [tutorial](https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/)
-- LCD screen part is optional
+- LCD screen part is optional (but strongly encouraged!)
 
 ## Third Project: Advanced RGB Lighting Unleashed
 - Important takeaways:
