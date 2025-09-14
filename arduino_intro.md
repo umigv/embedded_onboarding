@@ -35,7 +35,6 @@ The `loop` function will continue running as long as the board is powered, after
     1. Get comfortable with software, and hardware interaction 
     2. Learn to install libraries
 - Follow this [tutorial](https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/)
-- LCD screen part is optional (but strongly encouraged!)
 
 ## Third Project: Advanced RGB Lighting Unleashed
 - Important takeaways:
